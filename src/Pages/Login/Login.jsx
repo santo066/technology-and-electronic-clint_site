@@ -21,7 +21,7 @@ export default function Login() {
                     email,
                     lastlogin: result.user?.metadata?.lastSignInTime
                 }
-                fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/users',{
+                fetch('https://technology-and-electronics-server-ashen.vercel.app/users',{
                     method:'PATCH',
                     headers:{
                         'content-type':'application/json'

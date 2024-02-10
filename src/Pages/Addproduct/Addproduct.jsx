@@ -13,7 +13,7 @@ export default function Addproduct() {
         const products = { name, brand, type, price, description, image, ratting };
         console.log(products)
 
-        fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products',{
+        fetch('https://technology-and-electronics-server-ashen.vercel.app/products',{
             method:'POST',
             headers:{
                 'content-type':'application/json'

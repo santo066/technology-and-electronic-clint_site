@@ -40,52 +40,52 @@ const router = createBrowserRouter([
             {
                 path:'/allphones',
                 element:<ViewAllCard></ViewAllCard>,
-                loader:()=>fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader:()=>fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path: '/apple',
                 element: <Apple></Apple>,
-                loader: () => fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader: () => fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path: '/oppo',
                 element: <Oppo></Oppo>,
-                loader: () => fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader: () => fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path: '/vivo',
                 element: <Vivo></Vivo>,
-                loader: () => fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader: () => fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path: '/onplus',
                 element: <Onplus></Onplus>,
-                loader: () => fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader: () => fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path: '/samsung',
                 element: <Samsung></Samsung>,
-                loader: () => fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader: () => fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path: '/sony',
                 element: <Sony></Sony>,
-                loader: () => fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/products')
+                loader: () => fetch('https://technology-and-electronics-server-ashen.vercel.app/products')
             },
             {
                 path:'/update/:id',
                 element:<Update></Update>,
-                loader:({params})=>fetch(`https://technology-and-electronics-server-n7gpssyxy.vercel.app/products/${params.id}`)
+                loader:({params})=>fetch(`https://technology-and-electronics-server-ashen.vercel.app/products/${params.id}`)
             },
             {
                 path:'/detels/:id',
                 element:<PrivateRouter><Detels></Detels></PrivateRouter>,
-                loader:({params})=>fetch(`https://technology-and-electronics-server-n7gpssyxy.vercel.app/products/${params.id}`)
+                loader:({params})=>fetch(`https://technology-and-electronics-server-ashen.vercel.app/products/${params.id}`)
             },
             {
                 path:'/users',
                 element:<Users></Users>,
-                loader:()=>fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/users')
+                loader:()=>fetch('https://technology-and-electronics-server-ashen.vercel.app/users')
             },
 
             
