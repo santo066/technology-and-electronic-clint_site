@@ -20,7 +20,7 @@ export default function Update() {
         console.log(update)
 
 
-        fetch(`http://localhost:5000/products/${datas._id}`, {
+        fetch(`https://technology-and-electronics-server-n7gpssyxy.vercel.app/products/${datas._id}`, {
             method: "PUT",
             headers: {
                 'content-type': 'application/json'

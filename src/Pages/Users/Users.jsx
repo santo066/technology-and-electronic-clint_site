@@ -6,7 +6,7 @@ export default function Users() {
     const [users, setusers] = useState(loadedusers)
 
     const hendeldelete = (_id) => {
-        fetch(`http://localhost:5000/users/${_id}`, {
+        fetch(`https://technology-and-electronics-server-n7gpssyxy.vercel.app/users/${_id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

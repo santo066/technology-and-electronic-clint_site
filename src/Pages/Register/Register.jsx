@@ -19,7 +19,7 @@ export default function Register() {
                 console.log(result)
                 //user collection
                 const user = { name, email, phone }
-                fetch('http://localhost:5000/users', {
+                fetch('https://technology-and-electronics-server-n7gpssyxy.vercel.app/users', {
                     method: "POST",
                     headers: {
                         'content-type': "application/json"
